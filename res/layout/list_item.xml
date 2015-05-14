@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/list_item_layout_style" >
+
+    <LinearLayout
+        style="@style/list_item_layout_style">
+        
+
+        <ImageView
+            android:id="@+id/item_head_img"
+            style="@style/head_img_style" />
+
+        <TextView
+            android:id="@+id/item_big_tx"
+            style="@style/list_item_bigTx_style"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp" />
+    </LinearLayout>
+
+</RelativeLayout>

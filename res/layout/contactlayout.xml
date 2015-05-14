@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <include layout="@layout/list" />
+
+    <com.broadking.v3.view.IndexSideBar
+        android:id="@+id/indexSideBar"
+        android:layout_width="@dimen/index_sidebar_width"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/index_sidebar_bg"/>
+
+</FrameLayout>

@@ -1,0 +1,128 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- 页面内容Layout -->
+    <style name="content_layoutStyle">
+        <item name="android:padding">@dimen/content_padding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <!-- 标题文字 -->
+    <style name="title_txStyle" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/title_txSize</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- 标题返回按钮 -->
+    <style name="title_backStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/titleBt_padding</item>
+        <item name="android:background">@null</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <!-- 标题右按钮 -->
+    <style name="title_buttonStyle" parent="android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/titleBt_padding</item>
+    </style>
+
+    <!-- 导航选择按钮style -->
+    <style name="tab_rb_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/tab_txSize</item>
+        <item name="android:background">@null</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:layout_marginBottom">@dimen/tab_marginBottom</item>
+    </style>
+
+    <!-- list item style -->
+    <style name="list_item_layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:background">@drawable/list_item_bg</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <!-- list中头像style -->
+    <style name="head_img_style">
+        <item name="android:layout_width">@dimen/head_img_size</item>
+        <item name="android:layout_height">@dimen/head_img_size</item>
+        <item name="android:layout_marginLeft">7dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/head_img_bg</item>
+    </style>
+    <!-- item中箭头style -->
+    <style name="item_arrow_style">
+        <item name="android:layout_width">16dp</item>
+        <item name="android:layout_height">16dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:src">@drawable/item_arrow</item>
+    </style>
+    
+    <!-- list item中文字部分区域style -->
+    <style name="list_item_txLayout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- item 大字体style -->
+    <style name="list_item_bigTx_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/item_bigTxSize</item>
+        <item name="android:textColor">@color/item_bigTx_bg</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <!-- item 小字体style -->
+    <style name="list_item_smallTx_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/item_smallTxSize</item>
+        <item name="android:textColor">@color/item_smallTx_bg</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <!-- 通讯录索引style -->
+    <style name="contact_index_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/contact_indexTx_bg</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/contact_index_layout_height</item>
+    </style>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#f0f0f6</color>
+    <color name="title_bg">#36495a</color>
+    <color name="bottom_bg">#36495a</color>
+    <color name="text_bg">#5c7c99</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#FF0000</color>
+    <color name="gray">#d7d7d7</color>
+    
+    <color name="searchLayout_bg">#cccccc</color>
+    <color name="divider_bg">#d0d0cf</color>
+    <color name="item_pressed">#e7e7e7</color>
+    
+    <color name="item_bigTx_bg">#262626</color>
+    <color name="item_smallTx_bg">#808080</color>
+    
+    <color name="contact_indexTx_bg">#8e8e93</color>
+</resources>
